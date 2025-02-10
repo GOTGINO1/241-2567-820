@@ -10,40 +10,40 @@
             margin: 0;
             padding: 0;
         }
+        /* Destop */
         .desktop ul{
             display: flex;
+            }    
+        .desktop ul > li{  
+            margin-right: 20px;  
         }
-        .desktop ul > li{
-            margin-right: 20px;
-        }
-        .mobile-menu,
-        .mobile{
+        .moblie-menu,
+        .moblie ul{    
             display: none;
         }
-        @media srceen and (max-width: 768px){
+        @media screen and (max-width: 768px){
             .desktop{
                 display: none;
             }
-            .mobile-menu{
+            .moblie-menu{
                 display: block;
             }
-            .mobile-menu:hover + .mobile{
+            .moblie-menu:hover + .moblie{
                 display: block;
             }
         }
-            
     </style>
 </head>
 <body>
-    <div class="desktop">
-        <ul>
+   <div class="desktop">
+         <ul>
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
-        </ul>
-    </div>
-    <div class="mobile-menu">Menu</div>
-    <div class="mobile">
+         </ul>
+   </div>
+   <div class="moblie-menu">Menu</div>
+    <div class="moblie">
         <ul>
             <li>Home</li>
             <li>About</li>
@@ -51,4 +51,4 @@
         </ul>
     </div>
 </body>
-</html>
+</html>           

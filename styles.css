@@ -1,21 +1,20 @@
 @font-face {
-    font-family: 'kanit';
+    font-family: 'Kanit';
     src: url('./Kanit/Kanit-Regular.ttf');
-} 
-
+    }
 body {
-    font-family: 'kanit';
+    font-family: 'Kanit';
 }
 .container {
+    background-color: wheat;
     width: 100%;
-    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-    background-color: gray;
-    padding: 20px;
     box-sizing: border-box;
 }
 .header {
+    background-color: wheat;
+    border: 2px solid black;
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
@@ -27,28 +26,29 @@ body {
     display: flex;
 }
 .form-input {
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 input.form, textarea {
     border: 1px solid black;
-    width: 100%;
+    width: 55%;
 }
 .center {
     text-align: center;
 }
 .button {
-    border: 0;
+    border: 2 solid black;
     width: 100%;
     height: 40px;
 }
-@media screen and (max-width: 768px){
-    .flex{
-    flex-direction: column;
-    }
+
+@media screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    } 
     .header {
-        font-size: 24px;
+       font-size: 24px;
     }
     .button {
-        width: 100%;
+       width: 100%;
     }
 }

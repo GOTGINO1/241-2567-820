@@ -1,0 +1,12 @@
+docker -v
+docker ps
+docker ps --all or docker ps -a
+docker run hello-world
+docker rm container_id     //delete docker
+docker run -p 80:80 nginx
+docker stop
+docker rm
+cd 
+cd .. 
+cd /etc/nginx
+cat file_name
